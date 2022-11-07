@@ -2,12 +2,11 @@ print()
 
 word = "Commitment"
 favorite_letter = input("enter your favorite letter: ")
-for i in word:
-    if i == favorite_letter:
-        # print(i.upper(),end="")
+for i, letter in enumerate(word):
+    if letter == favorite_letter:
         print("_", end="")
     else:
-        i = i.lower()
-        print(i.lower(),end="")
+        letter = letter.lower()
+        print(letter.lower(),end="")
 print()
 
