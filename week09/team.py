@@ -20,3 +20,9 @@ average  = sum/total
 print(f"sum: {sum}")
 print(f"average: {average}")
 print(f"numbers: {total}")
+maxNumber = max(numberlist)
+print(f"largest: {maxNumber}")
+numberlist.sort()
+print(f"sorted list:")
+for i in numberlist:
+    print(f"{i}")
